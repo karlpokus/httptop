@@ -1,2 +1,16 @@
 # httptop
-Attach to a running server and grab http stats
+Grab http stats from running server.
+
+# usage
+```bash
+$ ngrep -d <dev> -w Byline port <port> | httptop
+URL COUNT
+URL COUNT
+...
+```
+
+# todos
+- [x] count request
+- [ ] include statuscode
+- [ ] include count by statuscode
+- [ ] check out terminal control chars
